@@ -1,0 +1,329 @@
+body{
+  cursor: url("../img/cat.gif"),auto;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+/* menu section */
+.menu{
+  padding: 20px 150px;
+  box-shadow:0px 1px 10px rgba(123, 123, 123, 0.29);
+}
+.menu .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .logo{
+  background-image: url('../img/logo.png');
+  width: 65px;
+  height: 52px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 150%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding-right: 30px;
+}
+.menu .menu-list{
+  display: flex;
+}
+.menu .home-menu{
+  background-image: url('../img/home.png');
+  width: 70px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding-right: 50px;
+  background-position: top center;
+}
+.menu .about-menu{
+  background-image: url('../img/about.png');
+  width: 70px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding-right: 50px;
+  background-position: top center;
+}
+.menu .works-menu{
+  background-image: url('../img/works.png');
+  width: 70px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding-right: 50px;
+  background-position: top center;
+}
+.menu .contact-menu{
+  background-image: url('../img/contact.png');
+  width: 70px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding-right: 50px;
+  background-position: top center;
+}
+.menu .linked-icon{
+  background-image: url('../img/linked.png');
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap;
+  padding: 0 10px;
+  background-position: top center;
+}
+.menu .github-icon{
+  background-image: url('../img/github.png');
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  background-position: top center;
+}
+/* menu-list hover */
+.menu .home-menu:hover{
+  background-image: url('../img/home-hover.png');
+  width: 70px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding-right: 50px;
+  background-position: top center;
+}
+.menu .about-menu:hover{
+  background-image: url('../img/about-hover.png');
+  width: 70px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding-right: 50px;
+  background-position: top center;
+}
+.menu .works-menu:hover{
+  background-image: url('../img/works-hover.png');
+  width: 70px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding-right: 50px;
+  background-position: top center;
+}
+.menu .contact-menu:hover{
+  background-image: url('../img/contact-hover.png');
+  width: 70px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 200%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding-right: 50px;
+  background-position: top center;
+}
+
+/* hero section */
+.hero-section{
+  height: 688px;
+  position: relative;
+  padding-bottom: 80px;
+}
+/* catphoto */
+.hero-section .banner-flycat{
+  position: absolute;
+  top: 10%;
+  left: 14%;
+}
+.hero-section .banner-butcat{
+  position: absolute;
+  top: 15%;
+  left: 48%;
+}
+.hero-section .banner-stantcat{
+  position: absolute;
+  top: 8%;
+  right: 12%;
+}
+.hero-section .banner-sitcat{
+  position: absolute;
+  bottom: 17%;
+  right: 10%;
+}
+.hero-section .banner-backcat{
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+/* wordsphoto */
+.hero-section .words-welcome{
+  position: absolute;
+  top: 40%;
+  left: 13%;
+  transform: rotate(355deg)
+}
+.hero-section .words-to{
+  position: absolute;
+  top: 30%;
+  right: 30%;
+}
+.hero-section .words-my{
+  position: absolute;
+  top: 45%;
+  right: 18%;
+}
+.hero-section .words-cats{
+  position: absolute;
+  bottom: 18%;
+  left: 32%;
+}
+.hero-section .words-world{
+  position: absolute;
+  bottom: 25%;
+  right: 28%;
+  transform: rotate(5deg)
+}
+/* linephoto */
+.hero-section .hero-section-line{
+  padding-top: 708px;
+
+}
+.hero-section .line-pic{
+  height: 60px;
+  background-image: url("../img/banner-line.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+/* about section */
+.about{
+  margin: 80px 0;
+}
+.about .container{
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.about .about-left-pic{
+  width: 100%;
+  position: relative;
+}
+.about-left-pic .about-bg{
+  padding-left: 120px;
+}
+.about-left-pic .about-cat{
+  position: absolute;
+  top: 25%;
+  left: 35%;
+} 
+.about .about-content{
+  width: 100%;
+}
+.about .about-content img{
+  height: 60px;
+  padding-bottom: 30px;
+}
+.about .about-content-text{
+  font-size: 20px;
+  line-height: 2;
+} 
+
+/* works section */
+.works{
+  position: relative;
+  height: 1148px;
+  background-image: url("../img/works-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 80px;
+}
+.works .works-title{
+  height: 28px;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+}
+.works .works-img-cloud{
+  position: absolute;
+  top: 17%;
+  left: 12%;
+}
+.works .works-img-star{
+  position: absolute;
+  top: 100px;
+  right: 10%;
+}
+.works .works-img-rhombus{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.works .works-img-trapezoid{
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.works .works-img-circle{
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+}
+.works .works-img-twocircle{
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  transform: rotate(345deg);
+}
+/* instagram section */
+.instagram{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.instagram .instagram-title{
+  height: 48px;
+}
+
+/* footer section */
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-image: url("../img/footer-bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 103%;
+}
+.footer .copyright{
+  width: 15%;
+}
