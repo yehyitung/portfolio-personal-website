@@ -4,21 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
-</head>
 <body>
   <!-- menu section -->
-  <nav class="menu">
+  <nav class="menu" id="home">
     <div class="container">
       <a class="logo" href="#">yehyitung</a>
       <ul class="menu-list">
-        <li class="home-menu"><a href="#">home</a></li>
-        <li class="about-menu"><a href="#">about</a></li>
-        <li class="works-menu"><a href="#">works</a></li>
-        <li class="contact-menu"><a href="#">contact</a></li>
-        <li class="linked-icon"><a href="#">linked</a></li>
-        <li class="github-icon"><a href="#">github</a></li>
+        <li><a class="home-menu menu-layout" href="#home">home</a></li>
+        <li><a class="about-menu menu-layout" href="#about">about</a></li>
+        <li><a class="works-menu menu-layout" href="#works">works</a></li>
+        <li><a class="contact-menu menu-layout" href="#contact">contact</a></li>
+        <li><a class="linked-icon icon-layout" href="www.linkedin.com/in/yehyitung">linked</a></li>
+        <li><a class="github-icon icon-layout" href="https://github.com/yehyitung">github</a></li>
       </ul> 
     </div>
   </nav>
@@ -39,7 +39,7 @@
     </div>
   </section>
   <!-- about section -->
-  <section class="about">
+  <section class="about" id="about">
     <div class="container">
       <div class="about-left-pic">
         <img src="./img/about-cat-small.png" alt="about-cat" class="about-cat">
@@ -52,24 +52,68 @@
     </div>
   </section>
   <!-- works section -->
-  <section class="works">
+  <section class="works" id="works">
     <img src="./img/works-title.png" alt="" class="works-title">
-    <img src="./img/works-cloud.png" alt="" class="works-img-cloud">
-    <img src="./img/works-star.png" alt="" class="works-img-star">
-    <img src="./img/works-rhombus.png" alt="" class="works-img-rhombus">
-    <img src="./img/works-trapezoid.png" alt="" class="works-img-trapezoid">
-    <img src="./img/works-circle.png" alt="" class="works-img-circle">
-    <img src="./img/works-twocircle.png" alt="" class="works-img-twocircle">
+    <div class="works-img-cloud"></div>
+    <div class="works-img-star"></div>
+    <div class="works-img-rhombus"></div>
+    <div class="works-img-trapezoid"></div>
+    <div class="works-img-circle"></div>
+    <div class="works-img-twocircle"></div>
+    <!-- lightbox section -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-content">
+        <h1 class="lightbox-title">To-do List</h1>
+        <p class="lightbox-text">Difficults:</p>
+      </div>
+      <div class="lightbox-website"></div>
+    </div>
   </section>
-  <!-- instagram section -->
-  <section class="instagram">
-    <img src="./img/ig-title.png" alt="" class="instagram-title">
+
+  <!-- contact section -->
+  <section class="contact" id="contact">
+    <div class="contact-title">
+      <img src="./img/contact-title.png" alt="">
+    </div>
+    <div class="container">
+      <div class="info-section">
+        <img class="info-title" src="./img/info-title.png" alt="info">
+        <ul class="info-list">
+          <li class="info-item"><p>Tel. +886-931-991-622</p></li>
+          <li class="info-item"><p>Email. joe66033166@gmail.com</p></li>
+          <li class="info-item">
+            <ul class="info-iconlist"> 
+              <li><a class="facebook-icon icon-layout" href="#">facebook</a></li>
+              <li><a class="behance-icon icon-layout" href="#">behance</a></li>
+              <li><a class="instagram-icon icon-layout" href="#">instagram</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <form class="form-section" action="https://formspree.io/f/aatung0913@gmail.com"
+      method="POST">
+        <label for="name">Name.</label>
+        <input type="text" name="name">
+        <label for="tel">Tel.</label>
+        <input type="number" name="tel">
+        <label for="email">Email.</label>
+        <input type="text" name="_replyto">
+        <label for="content">Content.</label>
+        <textarea type="text" name="message"></textarea>
+        <button class="send-btn" type="submit">send</button>
+      </form>
+    </div>
   </section>
   <!-- footer section -->
   <footer class="footer">
     <img src="./img/copyright.png" alt="" class="copyright">
   </footer>
+  <div class="backto-top">
+    <a href="#"><img src="./img/top.png" alt="top"></a>
+  </div>
   <!-- js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
   <script src="./js/jquery-3.5.1.min.js"></script>
   <script src="./js/all.js"></script>
 </body>

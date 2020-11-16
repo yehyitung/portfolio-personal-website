@@ -1,5 +1,8 @@
-body{
-  cursor: url("../img/cat.gif"),auto;
+html{
+  scroll-behavior: smooth;
+}
+html,body,footer,div,section,a,input,label,textarea,button,img{
+  cursor: url("../img/cathand-hover.gif"),auto;
 }
 img{
   max-width: 100%;
@@ -7,7 +10,7 @@ img{
 }
 /* menu section */
 .menu{
-  padding: 20px 150px;
+  padding: 0 150px;
   box-shadow:0px 1px 10px rgba(123, 123, 123, 0.29);
 }
 .menu .container{
@@ -17,146 +20,82 @@ img{
 }
 .menu .logo{
   background-image: url('../img/logo.png');
-  width: 65px;
-  height: 52px;
-  background-size: contain;
+  width: 60px;
+  height: 30px;
+  background-size: 60%;
   background-repeat: no-repeat;
-  text-indent: 150%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  padding-right: 30px;
+  padding: 25px 50px 25px 0px;
+  color: transparent;
+  background-position: center center;
 }
 .menu .menu-list{
   display: flex;
+  align-items: center;
+}
+.menu .menu-list .menu-layout{
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  color: transparent;
+  padding: 25px 50px 25px 0px;
+  background-position: center center;
 }
 .menu .home-menu{
   background-image: url('../img/home.png');
-  width: 70px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  padding-right: 50px;
-  background-position: top center;
 }
 .menu .about-menu{
   background-image: url('../img/about.png');
-  width: 70px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  padding-right: 50px;
-  background-position: top center;
 }
 .menu .works-menu{
   background-image: url('../img/works.png');
-  width: 70px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  padding-right: 50px;
-  background-position: top center;
 }
 .menu .contact-menu{
   background-image: url('../img/contact.png');
-  width: 70px;
+}
+.menu .menu-list .icon-layout{
+  display: inline-block;
+  width: 30px;
   height: 30px;
-  background-size: contain;
+  background-size: 80%;
   background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  padding-right: 50px;
-  background-position: top center;
+  color: transparent;
+  padding: 25px 10px 25px 0px;
+  background-position: center center;
 }
 .menu .linked-icon{
   background-image: url('../img/linked.png');
-  width: 30px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap;
-  padding: 0 10px;
-  background-position: top center;
 }
 .menu .github-icon{
   background-image: url('../img/github.png');
-  width: 30px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  background-position: top center;
 }
-/* menu-list hover */
+/* menu-list hover*/
 .menu .home-menu:hover{
   background-image: url('../img/home-hover.png');
-  width: 70px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  padding-right: 50px;
-  background-position: top center;
 }
 .menu .about-menu:hover{
   background-image: url('../img/about-hover.png');
-  width: 70px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  padding-right: 50px;
-  background-position: top center;
 }
 .menu .works-menu:hover{
   background-image: url('../img/works-hover.png');
-  width: 70px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  padding-right: 50px;
-  background-position: top center;
 }
 .menu .contact-menu:hover{
   background-image: url('../img/contact-hover.png');
-  width: 70px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: 200%; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  padding-right: 50px;
-  background-position: top center;
 }
-
+.menu .linked-icon:hover{
+  background-image: url('../img/linked-hover.png');
+}
+.menu .github-icon:hover{
+  background-image: url('../img/github-hover.png');
+}
 /* hero section */
 .hero-section{
   height: 688px;
   position: relative;
   padding-bottom: 80px;
 }
-/* catphoto */
+/* cat photo */
 .hero-section .banner-flycat{
   position: absolute;
   top: 10%;
@@ -182,7 +121,7 @@ img{
   top: 65%;
   left: 10%;
 }
-/* wordsphoto */
+/* words photo */
 .hero-section .words-welcome{
   position: absolute;
   top: 40%;
@@ -210,10 +149,9 @@ img{
   right: 28%;
   transform: rotate(5deg)
 }
-/* linephoto */
+/* line photo */
 .hero-section .hero-section-line{
   padding-top: 708px;
-
 }
 .hero-section .line-pic{
   height: 60px;
@@ -231,22 +169,19 @@ img{
   width: 75%;
   margin: 0 auto;
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 .about .about-left-pic{
-  width: 100%;
   position: relative;
-}
-.about-left-pic .about-bg{
-  padding-left: 120px;
 }
 .about-left-pic .about-cat{
   position: absolute;
   top: 25%;
-  left: 35%;
+  left: 30%;
 } 
 .about .about-content{
-  width: 100%;
+  width: 600px;
 }
 .about .about-content img{
   height: 60px;
@@ -254,7 +189,7 @@ img{
 }
 .about .about-content-text{
   font-size: 20px;
-  line-height: 2;
+  line-height: 1.5;
 } 
 
 /* works section */
@@ -264,7 +199,6 @@ img{
   background-image: url("../img/works-bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-bottom: 80px;
 }
 .works .works-title{
   height: 28px;
@@ -273,46 +207,250 @@ img{
   left: 50%;
 }
 .works .works-img-cloud{
-  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 449px;
+  height: 353px;
+  background-image: url("../img/works-cloud.png");
+  position: absolute; 
   top: 17%;
   left: 12%;
 }
 .works .works-img-star{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 382px;
+  height: 373px;
+  background-image: url("../img/works-star.png");
   position: absolute;
   top: 100px;
   right: 10%;
 }
 .works .works-img-rhombus{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 220px;
+  background-image: url("../img/works-rhombus.png");
   position: absolute;
   top: 40%;
   left: 40%;
 }
 .works .works-img-trapezoid{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 330px;
+  background-image: url("../img/works-trapezoid.png");
   position: absolute;
   bottom: 10%;
   left: 10%;
 }
 .works .works-img-circle{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 248px;
+  height: 220px;
+  background-image: url("../img/works-circle.png");
   position: absolute;
   bottom: 10%;
   left: 45%;
 }
 .works .works-img-twocircle{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 345px;
+  background-image: url("../img/works-twocircle.png");
   position: absolute;
   bottom: 15%;
   right: 10%;
   transform: rotate(345deg);
 }
-/* instagram section */
-.instagram{
+/*works-section-hover*/
+.works .works-img-cloud:hover{
+  background-image: url("../img/works-cloud-hover.png");
+}
+.works .works-img-star:hover{
+  background-image: url("../img/works-star-hover.png");
+}
+.works .works-img-rhombus:hover{
+  background-image: url("../img/works-rhombus-hover.png");
+}
+.works .works-img-trapezoid:hover{
+  background-image: url("../img/works-trapezoid-hover.png");
+}
+.works .works-img-circle:hover{
+  background-image: url("../img/works-circle-hover.png");
+}
+.works .works-img-twocircle:hover{
+  background-image: url("../img/works-twocircle-hover.png");
+}
+/* lightbox section */
+.lightbox{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  transition: 1s;
+}
+.lightbox.open{
+  display: block;
+}
+.lightbox-content{
+  background-image: url('../img/work-lightbox-bg-green.png');
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  left: 10%;
+  top: 50%;
+  background-size: cover;
+  margin-left: -100px;
+  margin-top: -300px;
+  text-align: center;
+}
+.lightbox-website{
+  background-image: url('../img/work-lightbox-bg-pink.png');
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+  right: 10%;
+  top: 50%;
+  margin-right: -100px;
+  margin-top: -300px;
+  text-align: center;
+  background-size: cover;
+  background-position: top right;
+}
+.lightbox-title{
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  margin: 50px 0 30px 0;
+}
+.lightbox-text{
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  margin:0 50px;
+}
+/* contact section */
+.contact{
+  margin: 80px auto;
   display: flex;
-  justify-content: center;
-  margin-bottom: 80px;
+  flex-direction: column;
+  align-items: center;
 }
-.instagram .instagram-title{
-  height: 48px;
+.contact .contact-title img{
+ height: 30px;
+ margin-bottom: 30px;
 }
-
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.info-section{
+  padding: 20px;
+  margin: 50px 80px 0 0;
+}
+.info-section .info-title{
+  height: 60px;
+  padding-bottom: 40px;
+}
+.info-item{
+  padding-bottom: 20px;
+}
+.info-item p{
+  font-size: 20px;
+}
+.contact .info-iconlist{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+}
+.contact .info-iconlist .icon-layout{
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  color: transparent;
+  background-position: center center;
+  display: inline-block;
+  background-size: 80%;
+  padding: 10px;
+  margin-right: 10px;
+}
+.info-iconlist .facebook-icon{
+  background-image: url('../img/fb.png');
+}
+.info-iconlist .behance-icon{
+  background-image: url('../img/behance.png');
+}
+.info-iconlist .instagram-icon{
+  background-image: url('../img/ig.png');
+}
+/* info-iconlist hover*/
+.info-iconlist .facebook-icon:hover{
+  background-image: url('../img/fb-hover.png');
+}
+.info-iconlist .behance-icon:hover{
+  background-image: url('../img/behance-hover.png');
+}
+.info-iconlist .instagram-icon:hover{
+  background-image: url('../img/ig-hover.png');
+}
+/* form section */
+.form-section{
+  padding: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-section label{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.form-section input{
+  font-size: 18px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(232, 232, 232);
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  font-family: 'Ubuntu Mono', monospace;
+}
+.form-section textarea{
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  height: 120px;
+  background-color: rgb(232, 232, 232);
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  font-family: 'Ubuntu Mono', monospace;
+}
+.form-section .send-btn{
+  margin: 0 auto;
+  width: 120px;
+  height: 45px;
+  background-color: #78a6a4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  font-family: 'Ubuntu Mono', monospace;
+}
+.form-section .send-btn:hover{
+  background-color: #F267D9;
+}
 /* footer section */
 .footer{
   display: flex;
@@ -326,4 +464,9 @@ img{
 }
 .footer .copyright{
   width: 15%;
+}
+.backto-top{
+  position: fixed;
+  bottom: 60px;
+  right: 150px;
 }
