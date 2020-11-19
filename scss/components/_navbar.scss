@@ -1,0 +1,38 @@
+.menu {
+  padding: 0 150px;
+  box-shadow:0px 1px 10px rgba(123, 123, 123, 0.29);
+  .container {
+    max-width: 1366px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    background-image: url('../img/logo.png');
+    width: 60px;
+    height: 30px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    padding: 25px 50px 25px 0px;
+    color: transparent;
+    background-position: center center;
+  }
+  .menu-list {
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    .menu-layout{
+      display: inline-block;
+      width: 60px;
+      height: 30px;
+      background-size: 60%;
+      background-repeat: no-repeat;
+      color: transparent;
+      padding: 25px 50px 25px 0px;
+      background-position: center center;
+    }
+  }
+  .home-menu{
+    background-image: url('../img/home.png');
+  }
+}

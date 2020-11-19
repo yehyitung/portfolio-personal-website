@@ -1,0 +1,9 @@
+
+@import './base/reset';
+@import './view/mainPage';
+
+@import './components/navbar';
+
+html{
+  scroll-behavior: smooth;
+}
