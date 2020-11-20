@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .show-menu{
+      display: none;
+    }
   }
   .logo {
     background-image: url('../img/logo.png');
@@ -31,8 +34,166 @@
       padding: 25px 50px 25px 0px;
       background-position: center center;
     }
+    .icon-layout{
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      color: transparent;
+      padding: 25px 10px 25px 0px;
+      background-position: center center;
+    }
   }
   .home-menu{
     background-image: url('../img/home.png');
+    &:active{
+      background-image: url('../img/home-hover.png');
+    }
+  }
+  .about-menu{
+    background-image: url('../img/about.png');
+    &:active{
+      background-image: url('../img/about-hover.png');
+    }
+  }
+  .works-menu{
+    background-image: url('../img/works.png');
+    &:active{
+      background-image: url('../img/works-hover.png');
+    }
+  }
+  .contact-menu{
+    background-image: url('../img/contact.png');
+    &:active{
+      background-image: url('../img/contact-hover.png');
+    }
+  }
+  .linked-icon{
+    background-image: url('../img/linked.png');
+    &:active{
+      background-image: url('../img/linked-hover.png');
+    }
+  }
+  .github-icon{
+    background-image: url('../img/github.png');
+    &:active{
+      background-image: url('../img/github-hover.png');
+    }
+  }
+}
+
+/* menu-ipad */
+@media(max-width:768px){
+  .menu{
+    padding: 0 80px;
+    .menu-list{
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height 1.3s;
+      position: absolute;
+      z-index: 100;
+      top: 100px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .menu-layout{
+        background-size: 60%;
+        background-repeat: no-repeat;
+        color: transparent;
+        padding: 30px;
+        background-position: center center;
+      }
+      .icon-layout{
+        width: 25px;
+        height: 25px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        color: transparent;
+        background-position: center center;
+      }
+    }
+    .show-menu{
+      display: block;
+      float: right;
+    }
+  }
+  .menu-active .menu-list{
+    max-height: 500px;
+  }
+}
+
+/* menu-mobile */
+@media(max-width:360px){
+  .menu{
+    padding: 0 30px;
+    box-shadow:0px 1px 10px rgba(123, 123, 123, 0.29);
+    .container{
+      max-width: 1366px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo{
+      background-image: url('../img/logo.png');
+      width: 40px;
+      height: 30px;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      padding: 20px 20px 20px 0px;
+      color: transparent;
+      background-position: center center;
+    }
+    .menu-list{
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height 1.3s;
+      position: absolute;
+      z-index: 100;
+      top: 80px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .menu-layout{
+        display: inline-block;
+        width: 60px;
+        height: 30px;
+        background-repeat: no-repeat;
+        color: transparent;
+        background-position: center center;
+        background-size: 55%;
+        padding: 20px;
+      }
+      .icon-layout{
+        width: 25px;
+        height: 25px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        color: transparent;
+        background-position: center center;
+      }
+    }
+    .show-menu{
+      display: block;
+      float: right;
+      .menu-hamburger{
+        width: 80%;
+      }
+    }
+  }
+  .menu-active .menu-list{
+    max-height: 400px;
   }
 }

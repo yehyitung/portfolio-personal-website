@@ -3,6 +3,13 @@
 @import './view/mainPage';
 
 @import './components/navbar';
+@import './components/hero-section';
+@import './components/about-section';
+@import './components/work-section';
+@import './components/lightbox';
+@import './components/contact.scss';
+@import './components/footer.scss';
+
 
 html{
   scroll-behavior: smooth;
