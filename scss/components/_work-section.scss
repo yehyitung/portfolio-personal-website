@@ -1,0 +1,193 @@
+.works{
+  display: none;
+  position: relative;
+  height: 1148px;
+  background-image: url("../img/works-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  .works-title{
+    height: 28px;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+  }
+  .works-img-cloud{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 449px;
+    height: 353px;
+    background-image: url("../img/works-cloud.png");
+    position: absolute; 
+    top: 17%;
+    left: 12%;
+    &:hover {
+      background-image: url("../img/works-cloud-hover.png");
+    }
+  }
+  .works-img-star{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 382px;
+    height: 373px;
+    background-image: url("../img/works-star.png");
+    position: absolute;
+    top: 100px;
+    right: 10%;
+    &:hover {
+      background-image: url("../img/works-star-hover.png");
+    }
+  }
+  .works-img-rhombus{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 220px;
+    background-image: url("../img/works-rhombus.png");
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    &:hover {
+      background-image: url("../img/works-rhombus-hover.png");
+    }
+  }
+  .works-img-trapezoid{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 330px;
+    background-image: url("../img/works-trapezoid.png");
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    &:hover {
+      background-image: url("../img/works-trapezoid-hover.png");
+    }
+  }
+  .works-img-circle{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 248px;
+    height: 220px;
+    background-image: url("../img/works-circle.png");
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    &:hover {
+      background-image: url("../img/works-circle-hover.png");
+    }
+  }
+  .works-img-twocircle{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 345px;
+    background-image: url("../img/works-twocircle.png");
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    transform: rotate(345deg);
+    &:hover {
+      background-image: url("../img/works-twocircle-hover.png");
+    }
+  }
+}
+
+@media(max-width:768px){
+  .works{
+    height: 1500px;
+    .works-title{
+      top: 5%;
+      left: 50%;
+    }
+    .works-img-cloud{
+      background-size: 70%;
+      top: 10%;
+      left: 12%;
+    }
+    .works-img-star{
+      background-size: 85%;
+      top: 20%;
+      right: 1%;
+    }
+    .works-img-rhombus{
+      background-size: 90%;
+      top: 43%;
+      left: 13%;
+    }
+    .works-img-trapezoid{
+      background-size: 85%;
+      bottom: 8%;
+      left: 10%;
+    }
+    .works-img-circle{
+      background-size: 90%;
+      bottom: 3%;
+      left: 60%;
+      transform: rotate(20deg);
+    }
+    .works-img-twocircle{
+      background-size: 85%;
+      width: 350px;
+      height: 300px;
+      bottom: 28%;
+      right: 5%;
+      transform: rotate(345deg);
+    }
+  }
+}
+
+@media(max-width:360px){
+  .works{
+    max-width: 360px;
+    height: 1500px;
+    .works-title{
+      height: 20px;
+      top: 3%;
+      left: 43%;
+    }
+    .works-img-cloud{
+      background-size: 100%;
+      width: 250px;
+      height: 200px;
+      top: 8%;
+      left: 12%;
+    }
+    .works-img-star{
+      background-size: 100%;
+      width: 250px;
+      height: 300px;
+      top: 23%;
+      right: 10%;
+    }
+    .works-img-rhombus{
+      background-size: 100%;
+      width: 250px;
+      height: 200px;
+      top: 42%;
+      left: 13%;
+    }
+    .works-img-trapezoid{
+      background-size: 100%;
+      width: 230px;
+      height: 250px;
+      bottom: 12%;
+      left: 15%;
+    }
+    .works-img-circle{
+      background-size: 100%;
+      width: 150px;
+      height: 200px;
+      bottom: 0%;
+      left: 30%;
+      transform: rotate(20deg);
+    }
+    .works-img-twocircle{
+      background-size: 100%;
+      width: 230px;
+      height: 300px;
+      bottom: 25%;
+      right: 10%;
+      transform: rotate(345deg);
+    }
+  }
+}
