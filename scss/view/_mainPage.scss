@@ -1,9 +1,22 @@
 
 
 html,body,footer,div,section,a,input,label,textarea,button,img{
-  cursor: url("../img/cathand-hover.gif"),auto;
+  cursor: url("../img/cathand-hover.gif"),auto !important;
+  &:active{
+    cursor: url("../img/cathand-active.gif"),auto !important;
+  }
+}
+.grab {
+  &:hover {
+    cursor: url("../img/cathand-grab.gif"),auto !important;
+  }
+}
+html,body{
+  width: 100%;
+  overflow-x: hidden;
 }
 img{
   max-width: 100%;
   height: auto;
 }
+

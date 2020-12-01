@@ -58,6 +58,7 @@
     }
   }
   .works-menu{
+    display: none !important;
     background-image: url('../img/works.png');
     &:active{
       background-image: url('../img/works-hover.png');
