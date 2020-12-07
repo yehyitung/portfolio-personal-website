@@ -334,8 +334,8 @@ img {
 
 .hero-section .banner-flycat {
   position: absolute;
-  top: 10%;
-  left: 14%;
+  top: 150px;
+  left: 160px;
 }
 
 .hero-section .banner-flycat:hover {
@@ -344,58 +344,58 @@ img {
 
 .hero-section .banner-butcat {
   position: absolute;
-  top: 15%;
-  left: 48%;
+  top: 170px;
+  left: 780px;
 }
 
 .hero-section .banner-stantcat {
   position: absolute;
-  top: 8%;
-  right: 12%;
+  top: 150px;
+  right: 180px;
 }
 
 .hero-section .banner-sitcat {
   position: absolute;
-  bottom: 17%;
-  right: 10%;
+  bottom: 130px;
+  right: 200px;
 }
 
 .hero-section .banner-backcat {
   position: absolute;
-  top: 65%;
-  left: 10%;
+  bottom: 100px;
+  left: 160px;
 }
 
 .hero-section .words-welcome {
   position: absolute;
-  top: 40%;
-  left: 13%;
+  top: 370px;
+  left: 220px;
   -webkit-transform: rotate(355deg);
           transform: rotate(355deg);
 }
 
 .hero-section .words-to {
   position: absolute;
-  top: 30%;
-  right: 30%;
+  top: 220px;
+  right: 550px;
 }
 
 .hero-section .words-my {
   position: absolute;
-  top: 45%;
-  right: 18%;
+  top: 400px;
+  right: 350px;
 }
 
 .hero-section .words-cats {
   position: absolute;
-  bottom: 18%;
-  left: 32%;
+  bottom: 170px;
+  left: 540px;
 }
 
 .hero-section .words-world {
   position: absolute;
-  bottom: 25%;
-  right: 28%;
+  bottom: 220px;
+  right: 480px;
   -webkit-transform: rotate(5deg);
           transform: rotate(5deg);
 }
@@ -415,57 +415,57 @@ img {
   }
   .hero-section .banner-flycat {
     width: 25%;
-    top: 8%;
-    left: 10%;
+    top: 120px;
+    left: 50px;
   }
   .hero-section .banner-butcat {
     width: 13%;
-    top: 25%;
-    left: 48%;
+    top: 250px;
+    left: 350px;
   }
   .hero-section .banner-stantcat {
     width: 20%;
-    top: 5%;
-    right: 10%;
+    top: 120px;
+    right: 80px;
   }
   .hero-section .banner-sitcat {
     width: 15%;
-    bottom: 20%;
-    right: 10%;
+    bottom: 200px;
+    right: 80px;
   }
   .hero-section .banner-backcat {
     width: 18%;
-    top: 55%;
-    left: 6%;
+    bottom: 130px;
+    left: 70px;
   }
   .hero-section .words-welcome {
     width: 32%;
-    top: 30%;
-    left: 10%;
-    -webkit-transform: rotate(345deg);
-            transform: rotate(345deg);
+    top: 320px;
+    left: 60px;
+    -webkit-transform: rotate(350deg);
+            transform: rotate(350deg);
   }
   .hero-section .words-to {
     width: 8%;
-    top: 30%;
-    right: 25%;
+    top: 300px;
+    right: 180px;
   }
   .hero-section .words-my {
     width: 9%;
-    top: 35%;
-    right: 12%;
+    top: 380px;
+    right: 100px;
   }
   .hero-section .words-cats {
     width: 15%;
-    bottom: 30%;
-    left: 35%;
+    bottom: 200px;
+    left: 280px;
   }
   .hero-section .words-world {
     width: 22%;
-    bottom: 40%;
-    right: 18%;
-    -webkit-transform: rotate(350deg);
-            transform: rotate(350deg);
+    bottom: 100px;
+    right: 100px;
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
   }
   .line-section .line-pic {
     height: 40px;
