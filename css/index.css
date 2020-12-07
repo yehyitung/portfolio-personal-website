@@ -327,7 +327,7 @@ img {
 }
 
 .hero-section {
-  height: 688px;
+  height: 768px;
   position: relative;
   padding-bottom: 80px;
 }
@@ -400,17 +400,12 @@ img {
           transform: rotate(5deg);
 }
 
-.hero-section .hero-section-line {
-  padding-top: 708px;
-  margin-bottom: 40px;
-}
-
-.hero-section .hero-section-line .line-pic {
-  height: 60px;
+.line-section .line-pic {
+  height: 40px;
+  width: 100%;
   background-image: url("../img/banner-line.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 90%;
 }
 
 /* hero-ipad */
@@ -472,9 +467,10 @@ img {
     -webkit-transform: rotate(350deg);
             transform: rotate(350deg);
   }
-  .hero-section .hero-section-line {
-    padding-top: 600px;
-    margin-bottom: 10px;
+  .line-section .line-pic {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 50px;
   }
 }
 

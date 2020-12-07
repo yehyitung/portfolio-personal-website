@@ -1,5 +1,5 @@
 .hero-section{
-  height: 688px;
+  height: 768px;
   position: relative;
   padding-bottom: 80px;
   .banner-flycat{
@@ -57,16 +57,14 @@
     right: 28%;
     transform: rotate(5deg)
   }
-  .hero-section-line{
-    padding-top: 708px;
-    margin-bottom: 40px;
-    .line-pic{
-      height: 60px;
-      background-image: url("../img/banner-line.png");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 90%;
-    }
+}
+.line-section{
+  .line-pic{
+    height: 40px;
+    width: 100%;
+    background-image: url("../img/banner-line.png");
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -126,12 +124,16 @@
       right: 18%;
       transform: rotate(350deg)
     }
-    .hero-section-line{
-      padding-top: 600px;
-      margin-bottom: 10px;
+  }
+  .line-section{
+    .line-pic{
+      height: 40px;
+      width: 100%;
+      margin-bottom: 50px;
     }
   }
 }
+
 
 @media(max-width:360px){
   .hero-section{
