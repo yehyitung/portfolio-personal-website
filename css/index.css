@@ -53,60 +53,6 @@ table {
   border-spacing: 0;
 }
 
-@media (min-width: 320px), (max-width: 320px) {
-  html {
-    font-size: 12px;
-  }
-}
-
-@media (min-width: 360px) {
-  html {
-    font-size: 13.5px;
-  }
-}
-
-@media (min-width: 400px) {
-  html {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 440px) {
-  html {
-    font-size: 16.5px;
-  }
-}
-
-@media (min-width: 480px) {
-  html {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 520px) {
-  html {
-    font-size: 19.5px;
-  }
-}
-
-@media (min-width: 560px) {
-  html {
-    font-size: 21px;
-  }
-}
-
-@media (min-width: 600px) {
-  html {
-    font-size: 22.5px;
-  }
-}
-
-@media screen and (min-width: 640px) {
-  html {
-    font-size: 16px;
-  }
-}
-
 html, body, footer, div, section, a, input, label, textarea, button, img {
   cursor: url("../img/cathand-hover.gif"), auto !important;
 }
@@ -364,7 +310,7 @@ img {
     color: transparent;
     background-position: center center;
   }
-  .navbar-wrapper .navbar-list .navbar-hamburger {
+  .navbar-wrapper .navbar-hamburger {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -375,21 +321,21 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
-  .navbar-wrapper .navbar-list .navbar-hamburger .hamburger-image {
+  .navbar-wrapper .navbar-hamburger .hamburger-image {
     width: 80%;
   }
 }
 
 .hero-section {
-  height: 768px;
+  height: 688px;
   position: relative;
   padding-bottom: 80px;
 }
 
 .hero-section .banner-flycat {
   position: absolute;
-  top: 140px;
-  left: 180px;
+  top: 10%;
+  left: 14%;
 }
 
 .hero-section .banner-flycat:hover {
@@ -398,68 +344,73 @@ img {
 
 .hero-section .banner-butcat {
   position: absolute;
-  top: 200px;
-  left: 800px;
+  top: 15%;
+  left: 48%;
 }
 
 .hero-section .banner-stantcat {
   position: absolute;
-  top: 130px;
-  right: 200px;
+  top: 8%;
+  right: 12%;
 }
 
 .hero-section .banner-sitcat {
   position: absolute;
-  bottom: 100px;
-  right: 150px;
+  bottom: 17%;
+  right: 10%;
 }
 
 .hero-section .banner-backcat {
   position: absolute;
-  bottom: 100px;
-  left: 150px;
+  top: 65%;
+  left: 10%;
 }
 
 .hero-section .words-welcome {
   position: absolute;
-  top: 370px;
-  left: 180px;
+  top: 40%;
+  left: 13%;
   -webkit-transform: rotate(355deg);
           transform: rotate(355deg);
 }
 
 .hero-section .words-to {
   position: absolute;
-  top: 220px;
-  right: 520px;
+  top: 30%;
+  right: 30%;
 }
 
 .hero-section .words-my {
   position: absolute;
-  top: 400px;
-  right: 350px;
+  top: 45%;
+  right: 18%;
 }
 
 .hero-section .words-cats {
   position: absolute;
-  bottom: 150px;
-  left: 550px;
+  bottom: 18%;
+  left: 32%;
 }
 
 .hero-section .words-world {
   position: absolute;
-  bottom: 200px;
-  right: 450px;
+  bottom: 25%;
+  right: 28%;
   -webkit-transform: rotate(5deg);
           transform: rotate(5deg);
 }
 
-.line-section .line-pic {
-  background-image: url("/img/banner-line.png");
+.hero-section .hero-section-line {
+  padding-top: 708px;
+  margin-bottom: 40px;
+}
+
+.hero-section .hero-section-line .line-pic {
+  height: 60px;
+  background-image: url("../img/banner-line.png");
   background-position: center center;
   background-repeat: no-repeat;
-  height: 40px;
-  width: 100%;
+  background-size: 90%;
 }
 
 /* hero-ipad */
@@ -522,6 +473,7 @@ img {
             transform: rotate(350deg);
   }
   .hero-section .hero-section-line {
+    padding-top: 600px;
     margin-bottom: 10px;
   }
 }

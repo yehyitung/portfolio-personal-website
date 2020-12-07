@@ -181,13 +181,13 @@
         color: transparent;
         background-position: center center;
       }
-      .navbar-hamburger{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .hamburger-image{
-          width: 80%;
-        }
+    }
+    .navbar-hamburger{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .hamburger-image{
+        width: 80%;
       }
     }
   }
