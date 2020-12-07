@@ -11,6 +11,7 @@ $(document).ready(function () {
     $('.navbar-list').toggleClass('is-active');
   });
 });
+
 // navbar-item
 $('.navbar-item').on('click', function(){
   $('.navbar-list').removeClass('is-active')

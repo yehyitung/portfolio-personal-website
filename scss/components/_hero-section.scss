@@ -1,72 +1,70 @@
 .hero-section{
-  height: 688px;
+  height: 768px;
   position: relative;
   padding-bottom: 80px;
   .banner-flycat{
     position: absolute;
-    top: 10%;
-    left: 14%;
+    top: 140px;
+    left: 180px;
     &:hover{
       background-image: url('../img/cat-01-hover.png');
     }
   }
   .banner-butcat{
     position: absolute;
-    top: 15%;
-    left: 48%;
+    top: 200px;
+    left: 800px;
   }
   .banner-stantcat{
     position: absolute;
-    top: 8%;
-    right: 12%;
+    top: 130px;
+    right: 200px;
   }
   .banner-sitcat{
     position: absolute;
-    bottom: 17%;
-    right: 10%;
+    bottom: 100px;
+    right: 150px;
   }
   .banner-backcat{
     position: absolute;
-    top: 65%;
-    left: 10%;
+    bottom: 100px;
+    left: 150px;
   }
   .words-welcome{
     position: absolute;
-    top: 40%;
-    left: 13%;
+    top: 370px;
+    left: 180px;
     transform: rotate(355deg)
   }
   .words-to{
     position: absolute;
-    top: 30%;
-    right: 30%;
+    top: 220px;
+    right: 520px;
   }
   .words-my{
     position: absolute;
-    top: 45%;
-    right: 18%;
+    top: 400px;
+    right: 350px;
   }
   .words-cats{
     position: absolute;
-    bottom: 18%;
-    left: 32%;
+    bottom: 150px;
+    left: 550px;
   }
   .words-world{
     position: absolute;
-    bottom: 25%;
-    right: 28%;
+    bottom: 200px;
+    right: 450px;
     transform: rotate(5deg)
   }
-  .hero-section-line{
-    padding-top: 708px;
-    margin-bottom: 40px;
-    .line-pic{
-      height: 60px;
-      background-image: url("../img/banner-line.png");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 90%;
-    }
+}
+.line-section{
+  .line-pic{
+    background-image: url('/img/banner-line.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 100%;
   }
 }
 
@@ -127,7 +125,6 @@
       transform: rotate(350deg)
     }
     .hero-section-line{
-      padding-top: 600px;
       margin-bottom: 10px;
     }
   }
