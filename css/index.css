@@ -269,9 +269,9 @@ img {
     overflow: hidden;
     -webkit-transition: max-height 1.3s;
     transition: max-height 1.3s;
-    position: absolute;
+    position: fixed;
     z-index: 10;
-    top: 80px;
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
