@@ -6,11 +6,15 @@ $(document).ready(function () {
       scrollTop: 0
     },500);
   });
-  $('.show-menu').on('click',  function(e){
+  $('.navbar-hamburger').on('click',  function(e){
     e.preventDefault();
-    $('body').toggleClass('menu-active');
+    $('.navbar-list').toggleClass('is-active');
   });
 });
+// navbar-item
+$('.navbar-item').on('click', function(){
+  $('.navbar-list').removeClass('is-active')
+})
 
 // lightbox open,close
 var openLightBox = document.querySelector('.works');
